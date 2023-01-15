@@ -1,0 +1,12 @@
+Create a new Spring boot project.
+
+Select spring boot web, Spring Data JPA, lombok, MySQL driver as dependancies.
+
+Make sure lombok is intalled in the IDE.
+
+
+Select the base package, and right click > New > Package.
+
+Create the following 5 packages: controller, service, repository, exception, model .
+
+Under the service package, creae a 'impl' sub package.
