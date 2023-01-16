@@ -1,12 +1,22 @@
-Create a new Spring boot project.
+1. Create a new Spring boot project in STS IDE.
 
-Select spring boot web, Spring Data JPA, lombok, MySQL driver as dependancies.
+2. Select spring boot web, Spring Data JPA, lombok, MySQL driver as dependancies.
 
-Make sure lombok is intalled in the IDE.
+3. Make sure lombok is intalled in the IDE.
 
 
-Select the base package, and right click > New > Package.
+4. Select the base package, and right click > New > Package.
 
-Create the following 5 packages: controller, service, repository, exception, model .
+5. Create the following 5 packages: controller, service, repository, exception, model .
 
-Under the service package, creae a 'impl' sub package.
+6. Under the service package, creae a 'impl' sub package.
+
+7. Go to MySQL workbench and create a new schema: create database ems
+8. Click on execute. Refresh the schemas and 'ems' will show up there.
+
+9. Back in STS, go to application.properties file in the src/main/resources folder.
+
+8. Configure JDBC to connect to MySQL database:
+spring.datasource.url=JDBC:mysql://localhost:3306/ems?useSSL=false
+spring.datasource.username=ashish
+spring.datasource.password=password
